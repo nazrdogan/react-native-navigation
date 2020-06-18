@@ -123,9 +123,9 @@
 }
 
 - (void)restoreTabBarVisibility:(BOOL)visible {
-    if (_tabBarNeedsRestore) {
+
         [self setTabBarVisible:visible animated:NO];
-        _tabBarNeedsRestore = NO;
+       
     }
 }
 
