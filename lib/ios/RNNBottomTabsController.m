@@ -124,9 +124,9 @@
 
 - (void)restoreTabBarVisibility:(BOOL)visible {
 
-        [self setTabBarVisible:visible animated:NO];
+       [self setTabBarVisible:visible animated:NO];
        
-    }
+    
 }
 
 #pragma mark UITabBarControllerDelegate
